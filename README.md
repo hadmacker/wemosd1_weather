@@ -25,13 +25,13 @@
 
 # Pinout
 
-| Interface     | Pin | ESP8266 Pin | Pin Mode | Address | Verb | Library |
-| ------------- | --- | ----------- | -------- | ------- | ---- | ------- |
-| BME280 SCL    | D1  | GPIO 5      |          |         |      |         |
-| BME280 SDA    | D2  | GPIO 4      |          |         |      |         |
-| BME280 Vin    | 3v3 |             |          |         |      |         |
-| BME280 I2C    | .   | .           | .        | 0x76    | .    |         |
-| Photoresistor | A0  | A0          |          |         |      |         |
-| Reserved open | D3  | GPIO 0      |          |         |      |         |
-| LED built-in  | D4  | GPIO 2      |          |         |      |         |
-| LED (extra))  | D8  | GPIO 15     |          |         |      |         |
+| Interface        | Pin | ESP8266 Pin | Pin Mode | Address | Verb | Library |
+| ---------------- | --- | ----------- | -------- | ------- | ---- | ------- |
+| BME280 SCL (SCK) | D1  | GPIO 5      |          |         |      |         |
+| BME280 SDA (SDI) | D2  | GPIO 4      |          |         |      |         |
+| BME280 Vin       | 3v3 |             |          |         |      |         |
+| BME280 I2C       | .   | .           | .        | 0x76    | .    |         |
+| Photoresistor    | A0  | A0          |          |         |      |         |
+| Reserved open    | D3  | GPIO 0      |          |         |      |         |
+| LED built-in     | D4  | GPIO 2      |          |         |      |         |
+| LED (extra))     | D8  | GPIO 15     |          |         |      |         |
